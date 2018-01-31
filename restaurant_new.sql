@@ -76,7 +76,7 @@ CREATE TABLE orders (
    PRIMARY KEY(storeid, ordernumber, linenumber),
    FOREIGN KEY(storeid) REFERENCES stores(storeid)
 );
-drop table orders;
+--drop table orders;
 INSERT INTO items VALUES ('CHKSD', 'Chicken Salad', 2.85, '5-JUN-00');
 INSERT INTO items VALUES ('FRTSD', 'Fruit Salad', 3.45, '6-JUN-00');
 INSERT INTO items VALUES ('GDNSD', 'Garden Salad', 0.99, '3-FEB-01');
